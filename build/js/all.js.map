@@ -1,0 +1,1 @@
+{"version":3,"sources":["test.js"],"names":["exports","user","concat"],"mappings":"2FAEAA,QAAA,QAFA,SAAAC,GACA,MAAA,cAAAC,OAAAD,CAAA,CACA","file":"all.js","sourcesContent":["function sayHello (user) {\r\n    return `Hello dear ${user}`;\r\n}\r\n\r\nexport default sayHello;"]}

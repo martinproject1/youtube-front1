@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,EACA,OAAA,EACA,QAAA,EACA,WAAA,WAGA,KACA,WAAA","file":"styles.css","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  background: rgb(218, 27, 27);\n}"]}
