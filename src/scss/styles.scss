@@ -1,5 +1,8 @@
-@import "reset.scss";
+@import "./fonts.scss";
+@import "./global.scss";
+
+@import "./componets/header.scss";
 
 body {
-    background: rgb(218, 27, 27);
+   font-family: "r-regular", sans-serif;
 }

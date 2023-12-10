@@ -44,7 +44,7 @@ async function scripts() {
 			toplevel: true
 		}))
 		.pipe(sourcemaps.write("."))
-		// pipe(transform())
+		 // pipe(transform())
 		.pipe(gulp.dest("./build/js"))
 		.pipe(browserSync.stream());
 }
