@@ -101,4 +101,46 @@ header {
             }
         }
     }
+    
+    .header__content {
+        max-width: 540px;
+        padding: 128px 10px 128px 10px;
+        margin: 0 auto;
+        text-align: center;
+
+        h1 {
+            font-size: min(99px, max(40px + 2vw));
+            letter-spacing: 5px;
+            color: #fff;
+            font-weight: normal;
+            margin: 0;
+
+        }
+
+        p {
+            margin: 64px 0px;
+            font-size: 21px;
+            color: #fff;
+            letter-spacing: 0.2px;
+        }
+
+        a {
+            width: 183px;
+            height: 42px;
+            margin: 0 auto;
+            line-height: 26px;
+        }
+    }
+
+    @media screen and (max-width: $mobile) {
+        min-height: unset;
+
+        .header__content {
+            padding: 64px 10px 64px 10px;
+
+            p {
+                margin: 32px 0px;
+            }
+        }
+    }
 }
